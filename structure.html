@@ -1,3 +1,14 @@
+<!--
+Document Outline:
+1. Comp 484
+  1. Structuring Pages
+    1. Conveying meaning through structure
+    2. Sectioning elements
+    3. Document outlines
+      1. W3C Warning
+    4. WAI-ARIA Roles
+-->
+
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -9,6 +20,7 @@
 <header role="banner">
   <h1>Comp 484</h1>
   <h2>Structuring Pages</h2>
+  <!--The nav tag defines a seperate area for navigation links to navigate the website and pages-->
   <nav role="navigation">
     <ul>
       <li><a href="index.html" title="Introduction to HTML">Introduction to HTML</a></li>
@@ -21,11 +33,13 @@
   </nav>
 </header>
 <main role="main">
+  <!--The article tag groups self-contained content that can stand on its own-->
   <article>
     <header>
       <h3> Conveying meaning through structure </h3>
       <p>Creating properly structured pages is the foundation of any good website. A solid semantic structure allows you to convey meaning and properly represent content types through nothing more than the page's markup. This, in turn, makes your content more accessible, easier to index and search, and makes it easier to repurpose. Remember that there are a lot of different devices, robots, and other user agents that will be reading your code. <em>Without a consistent, semantic structure your site will be less effective.</em> </p>
     </header>
+    <!--The sections divide related content into separate topics or sections within the article-->
     <section>
       <h3>Sectioning elements </h3>
       <p>One way to add meaning to your content is to organize them into sections that convey meaning and structure. For example it's pretty standard to contain introductory information within a section, page navigation within its own area, the page's main content in its own region, and related information within a sidebar. HTML contains numerous elements that are designed to assist in the logical structuring and semantics of page content. </p>
